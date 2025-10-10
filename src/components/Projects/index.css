@@ -1,0 +1,209 @@
+.project-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0f1c, #1a1f2b);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.project-content1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.project-title1 {
+  font-size: 2.5rem;
+  color: #00adb5;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInTitle 1s ease forwards;
+}
+
+@keyframes fadeInTitle {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* PROJECT CARD */
+.project-card1 {
+  width: 70%;
+  max-width: 950px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 25px rgba(0, 173, 181, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card1:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 35px rgba(0, 173, 181, 0.4);
+}
+
+/* Animation */
+.fade-left1 {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 0.8s ease-out;
+}
+
+.fade-right1 {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: all 0.8s ease-out;
+}
+
+.fade-left1.visible1,
+.fade-right1.visible1 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Project Info */
+.project-name1 {
+  font-size: 1.6rem;
+  color: #00adb5;
+  margin-bottom: 10px;
+}
+
+.project-description1 {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Core Concepts */
+.concept-list1 {
+  color: #bbb;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.concept-list-item{
+    font-size: 1rem;
+}
+
+/* Technologies Used Section */
+.tech-used1 h4 {
+  color: #00adb5;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.tech-badges1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-badge1 {
+  background: rgba(0, 173, 181, 0.2);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(0, 173, 181, 0.4);
+  transition: all 0.3s ease;
+}
+
+.tech-badge1:hover {
+  background: #00adb5;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Button */
+.view-btn1 {
+  margin-top: 20px;
+  background: #00adb5;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.view-btn1:hover {
+  background: #0097a7;
+  transform: scale(1.05);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  .project-card1 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+    .project-content1 {
+  width: 87%;
+  margin-top: 30px;
+  }
+  .project-title1 {
+  font-size: 1.8rem;}
+  .project-card1 {
+    width: 90%;
+    text-align: left;
+    padding: 25px 20px;
+  }
+
+  .project-name1 {
+    font-size: 1.2rem;
+  }
+
+  .project-description1 {
+    font-size: 0.8rem;
+  }
+  .concept-list-item{
+    font-size: 0.7rem;
+}
+.concept-list1{
+    font-size: .8rem;
+}
+
+  .tech-badges1 {
+    justify-content: flex-start;
+  }
+  .tech-badge1{
+    font-size: .6rem;
+  }
+}
