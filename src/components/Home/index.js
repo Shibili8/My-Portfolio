@@ -29,7 +29,7 @@ const Home = () => (
             className="download-btn"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/19LJV0_paKHfgMQcpjL1_VPdfW59XMw4O/view?usp=sharing",
+                "https://drive.google.com/file/d/14DGc4ZUKse0mV5crkFKAK9RQ0e4dp83V/view?usp=sharing",
                 "_blank"
               )
             }
