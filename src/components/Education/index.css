@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #eee;
+  color: #37474f;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0f1c, #1a1f2b);
+  background: linear-gradient(135deg, #ffffff, #e8f0f7);
   background-size: 400% 400%;
   animation: gradientMove 12s ease infinite;
   font-family: "Poppins", sans-serif;
@@ -32,8 +32,9 @@
 /* Animated Title */
 .edu-title {
   font-size: 2.5rem;
-  color: #00adb5;
+  color: #004d61;
   margin-bottom: 40px;
+  font-weight: 700;
   letter-spacing: 1px;
   opacity: 0;
   transform: translateY(-20px);
@@ -53,23 +54,22 @@
 
 /* Education Card */
 .education-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
   padding: 25px 40px;
   margin-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 0 25px rgba(0, 173, 181, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(10px);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Hover Glow Effect */
 .education-card:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 35px rgba(0, 173, 181, 0.5);
+  box-shadow: 0 0 30px rgba(0, 123, 131, 0.3);
 }
 
 /* Scroll-in Animation */
@@ -84,17 +84,18 @@
   transform: translateY(0);
 }
 
-/* Left/Right alternating animations */
-.fade-left {
+.fade-left,
+.fade-right {
   opacity: 0;
-  transform: translateX(-40px);
   transition: all 0.8s ease-out;
 }
 
+.fade-left {
+  transform: translateX(-40px);
+}
+
 .fade-right {
-  opacity: 0;
   transform: translateX(40px);
-  transition: all 0.8s ease-out;
 }
 
 .fade-left.visible,
@@ -110,19 +111,20 @@
 
 .institute-name {
   font-size: 1.3rem;
-  color: #00adb5;
+  color: #1a237e;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
 .education-course {
   font-size: 1rem;
-  color: #ccc;
+  color: #37474f;
   margin-bottom: 5px;
 }
 
 .education-duration {
   font-size: 0.9rem;
-  color: #aaa;
+  color: #607d8b;
 }
 
 /* Institute Image */
@@ -131,9 +133,9 @@
   height: 100px;
   object-fit: contain;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.8);
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 173, 181, 0.3);
+  box-shadow: 0 0 10px rgba(0, 123, 131, 0.3);
 }
 
 /* Responsive */
@@ -146,16 +148,12 @@
   }
 
   .institute-img {
-    width: 100%;
-    height: 100px;
+    width: 90%;
+    height: auto;
   }
 
   .edu-title {
-    font-size: 1.5rem;
-  }
-
-  .education-container {
-    margin-top: 30px;
+    font-size: 1.6rem;
   }
 
   .institute-name {
@@ -163,10 +161,10 @@
   }
 
   .education-course {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .education-duration {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
