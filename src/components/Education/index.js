@@ -38,11 +38,13 @@ const Education = () => {
             </p>
             <p className="education-duration">Aug 2024 - Ongoing</p>
           </div>
-          <img
-            className="institute-img"
-            alt="Nxtwave"
-            src="https://res.cloudinary.com/da4a06plx/image/upload/v1759835668/nxtwave_gkavcp.jpg"
-          />
+          <div className="institute-container">
+            <img
+              className="institute-img"
+              alt="Nxtwave"
+              src="https://res.cloudinary.com/da4a06plx/image/upload/v1759835668/nxtwave_gkavcp.jpg"
+            />
+          </div>
         </div>
 
         <div className="education-card fade-slide glow-hover">
@@ -51,11 +53,13 @@ const Education = () => {
             <p className="education-course">Master of Arts in Economics (7.03 CGPA)</p>
             <p className="education-duration">2021 - 2023</p>
           </div>
+          <div className="institute-container">
           <img
             className="institute-img"
             alt="Central University of Kerala"
-            src="https://res.cloudinary.com/da4a06plx/image/upload/v1759835868/cuk_gz1gdh.webp"
+            src="https://res.cloudinary.com/da4a06plx/image/upload/v1760428916/cuk_wg0bpk.jpg"
           />
+          </div>
         </div>
 
         <div className="education-card fade-slide glow-hover">
@@ -66,11 +70,13 @@ const Education = () => {
             <p className="education-course">Bachelor of Arts in Economics (69.3%)</p>
             <p className="education-duration">2018 - 2021</p>
           </div>
+          <div className="institute-container">
           <img
             className="institute-img"
             alt="EMEA College"
             src="https://res.cloudinary.com/da4a06plx/image/upload/v1759835668/emea_ookeiw.jpg"
           />
+          </div>
         </div>
 
         <div className="education-card fade-slide glow-hover">
@@ -79,11 +85,13 @@ const Education = () => {
             <p className="education-course">Intermediate_MEC (89.25%)</p>
             <p className="education-duration">2016 - 2018</p>
           </div>
+          <div className="institute-container">
           <img
             className="institute-img"
             alt="GHSS Pookkottur"
             src="https://res.cloudinary.com/da4a06plx/image/upload/v1759835670/ghsspktr_iqtemv.png"
           />
+          </div>
         </div>
 
         <div className="education-card fade-slide glow-hover">
@@ -92,11 +100,13 @@ const Education = () => {
             <p className="education-course">Secondary School Of Certificate (96.0%)</p>
             <p className="education-duration">2015 - 2016</p>
           </div>
+          <div className="institute-container">
           <img
             className="institute-img"
             alt="VHMHSS Morayur"
             src="https://res.cloudinary.com/da4a06plx/image/upload/v1759835668/vhmhss-morayur-school_xdmqo0.jpg"
           />
+          </div>
         </div>
       </div>
     </div>
