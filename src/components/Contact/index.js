@@ -21,11 +21,12 @@ const Contact = () => {
 
     try {
       const result = await emailjs.sendForm(
-        'service_xc9smd8',   // Service ID
-        'template_l3qmnsa',  // Template ID
+        'service_xc9smd8',   // 🔹 Your Service ID
+        'template_l3qmnsa',  // 🔹 Your Template ID
         form.current,
-        'BydJO05nza_qC4Ztn' // Public Key
+        'BydJO05nza_qC4Ztn' // 🔹 Your Public Key
       );
+
       console.log('EmailJS success:', result.text);
       setStatusMessage('✅ Message sent successfully!');
       e.target.reset();
@@ -63,11 +64,19 @@ const Contact = () => {
             required
           />
           <button type="submit" disabled={isSending}>
-            {isSending ? 'Sending...' : 'Send'}
+            {isSending ? <span className="spinner"></span> : 'Send'}
           </button>
         </form>
 
-        {statusMessage && <p className="status-message">{statusMessage}</p>}
+        {statusMessage && (
+          <p
+            className={`status-message ${
+              statusMessage.startsWith('✅') ? 'success' : 'error'
+            }`}
+          >
+            {statusMessage}
+          </p>
+        )}
       </div>
     </div>
   );
