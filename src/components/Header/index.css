@@ -1,7 +1,7 @@
 /* ---------- Header Container ---------- */
 .header-container {
-    width: 100%;
-    box-sizing: border-box;
+    width: 100%; /* full width */
+    box-sizing: border-box; /* include padding in width */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -12,6 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0, 173, 181, 0.2);
+    text-decoration: none;
 }
 
 /* ---------- Logo / Header Name ---------- */
@@ -21,29 +23,26 @@
     font-weight: 500;
     color: #f2f2f2;
 }
-
-.link-style {
+.link-style{
     text-decoration: none;
 }
-
 /* ---------- Links ---------- */
 .header-options-container {
     display: flex;
     align-items: center;
-    gap: 15px;
 }
 
 .header-options-larger-device {
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 100%;
 }
 
 .header-options {
     font-size: 20px;
     color: #fff;
     font-weight: 500;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
@@ -58,57 +57,42 @@
     outline: none;
     background: transparent;
     cursor: pointer;
-    display: none;
-}
-
-/* ---------- Hamburger Wrapper ---------- */
-.hamburger-wrapper {
-    position: relative; /* needed for absolute dropdown */
+    display: none; /* shown only on mobile below */
 }
 
 /* ---------- Mobile Header Options ---------- */
 .header-options-mobile-device {
-    display: flex;
+    display: none; /* default hidden */
     flex-direction: column;
     gap: 10px;
-    position: absolute;
-    top: 65px; /* height below hamburger */
-    right: 0;
-    background: rgba(15, 32, 39, 0.95);
-    padding: 10px 11px;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    width: 350px;
-    animation: slideDown 0.3s ease forwards;
-    padding-left: 50px;
-    
-}
-
-.header-options-mobile-device .header-options {
-    font-size: 16px;
-    color: #f2f2f2;
-    padding: 8px 0;
-}
-
-.header-options-mobile-device .header-options:hover {
-    color: #00adb5;
-    transform: scale(1.05);
-}
-
-/* ---------- Slide down animation ---------- */
-@keyframes slideDown {
-    0% { opacity: 0; transform: translateY(-10px); }
-    100% { opacity: 1; transform: translateY(0); }
 }
 
 /* ---------- Responsive ---------- */
 @media screen and (max-width: 767px) {
+    .header-container {
+        padding: 8px 15px;
+    }
+
+    .header-name {
+        font-size: 20px;
+    }
+
     .header-options-larger-device {
-        display: none;
+        display: none; /* hide large screen links */
     }
 
     .hamburger-btn {
-        display: block;
+        display: block; /* show hamburger */
+    }
+
+    .header-options-mobile-device {
+        display: flex;
+        width: 100%;
+    }
+
+    .header-options {
+        font-size: 16px;
+        color: #37474f;
+        padding-left: 25px;
     }
 }
