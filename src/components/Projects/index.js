@@ -35,6 +35,7 @@ const projects = [
     description:
       "Implemented Jobby App where users can log in and can see a list of jobs with search by Job title, filters based on Salary range and Employment type, etc",
     concepts: [
+      "Desktop Application",
       "Authenticating by taking username, password and doing login post HTTP API Call. ",
       "Persisted user login state by keeping jwt token in client storage, Sending it in headers of further API calls to authorize the user.",
       "Implemented different routes for Login, Home, Jobs, Job item details pages by using React Router components Route, Switch, Link.",

@@ -198,7 +198,7 @@ users can login and can see list of products with search, filters, sort by, etc.
         </div>
         <div className="project-card">
           <h3>Jobby App</h3>
-          <p>Implemented Jobby App where users can log in and can see a list of jobs with search by Job title, filters based
+          <p>Implemented Jobby App(Desktop Application) where users can log in and can see a list of jobs with search by Job title, filters based
 on Salary range and Employment type, etc</p>
           <div className="app-link-container">
           <a
