@@ -21,10 +21,10 @@ const Contact = () => {
 
     try {
       const result = await emailjs.sendForm(
-        'service_xc9smd8',   // 🔹 Your Service ID
-        'template_l3qmnsa',  // 🔹 Your Template ID
+        'service_xc9smd8',   
+        'template_l3qmnsa', 
         form.current,
-        'BydJO05nza_qC4Ztn' // 🔹 Your Public Key
+        'BydJO05nza_qC4Ztn' 
       );
 
       console.log('EmailJS success:', result.text);

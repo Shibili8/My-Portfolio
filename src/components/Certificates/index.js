@@ -77,7 +77,7 @@ const Certificate = () => (
     <div className="certificate-container">
       <h1 className="certificate-title">Certificates</h1>
 
-      {/* IRC Certificate Highlight */}
+      
       <div className="highlight-section">
         <h2 className="highlight-title">
           Industry Ready Certification (IRC)
@@ -89,7 +89,7 @@ const Certificate = () => (
         />
       </div>
 
-      {/* Other Certificates */}
+      
       <div className="cert-list">
         {certificates.map((cert) => (
           <div className="cert-card" key={cert.id}>

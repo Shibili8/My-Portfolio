@@ -8,7 +8,7 @@ const Home = () => (
   <div className="home-container">
     <Header />
 
-    {/* Hero Section */}
+    
     <div className="content">
       <img
         className="mobile-profile-pic"
@@ -79,7 +79,7 @@ const Home = () => (
 
     </div>
 
-    {/* About Section */}
+    
     <section className="about-section">
       <h2>About Me</h2>
       <h3>I'm Mohammed Shibili K</h3>
@@ -135,7 +135,7 @@ I’m proficient in creating and integrating RESTful APIs, implementing secure a
       <span>SQLite</span>
     </div>
     <div className="skill-card">
-      <i className="fa-brands fa-envira skill-icon"></i> {/* MongoDB doesn't have official FA icon, Envira leaf can represent DB */}
+      <i className="fa-brands fa-envira skill-icon"></i> 
       <span>MongoDB</span>
     </div>
     <div className="skill-card">
@@ -145,7 +145,7 @@ I’m proficient in creating and integrating RESTful APIs, implementing secure a
   </div>
     </section>
 
-    {/* Projects Section */}
+    
     <section className="projects-section">
       <h2>Projects</h2>
       <div className="projects-container">
@@ -229,7 +229,7 @@ on Salary range and Employment type, etc</p>
         </Link>
     </section>
 
-    {/* Certificates Section */}
+    
     <section className="certificates-section">
       <h2>Certificates</h2>
       <div className="certificates-container">

@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-/* Animated Title */
+
 .edu-title {
   font-size: 2.5rem;
   color: #004d61;
@@ -52,7 +52,7 @@
   }
 }
 
-/* Education Card */
+
 .education-card {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
@@ -72,7 +72,7 @@
   box-shadow: 0 0 30px rgba(0, 123, 131, 0.3);
 }
 
-/* Scroll-in Animation */
+
 .fade-slide {
   opacity: 0;
   transform: translateY(40px);
@@ -104,7 +104,7 @@
   transform: translateX(0);
 }
 
-/* Text */
+
 .education-details {
   text-align: left;
 }
@@ -127,7 +127,7 @@
   color: #607d8b;
 }
 
-/* Institute Image */
+
 .institute-container{
   height: 100%;
   width: 100%;
@@ -147,7 +147,7 @@
   box-shadow: 0 0 10px rgba(0, 123, 131, 0.3);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .education-card {
     flex-direction: column;

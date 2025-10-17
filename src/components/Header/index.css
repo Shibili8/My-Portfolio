@@ -1,7 +1,6 @@
-/* ---------- Header Container ---------- */
 .header-container {
-    width: 100%; /* full width */
-    box-sizing: border-box; /* include padding in width */
+    width: 100%;
+    box-sizing: border-box; 
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -16,7 +15,7 @@
     text-decoration: none;
 }
 
-/* ---------- Logo / Header Name ---------- */
+
 .header-name {
     font-family: 'Lucida Sans', sans-serif;
     font-size: 25px;
@@ -26,7 +25,7 @@
 .link-style{
     text-decoration: none;
 }
-/* ---------- Links ---------- */
+
 .header-options-container {
     display: flex;
     align-items: center;
@@ -51,23 +50,23 @@
     color: #00adb5;
 }
 
-/* ---------- Hamburger (Mobile) ---------- */
+
 .hamburger-btn {
     border: none;
     outline: none;
     background: transparent;
     cursor: pointer;
-    display: none; /* shown only on mobile below */
+    display: none; 
 }
 
-/* ---------- Mobile Header Options ---------- */
+
 .header-options-mobile-device {
-    display: none; /* default hidden */
+    display: none; 
     flex-direction: column;
     gap: 10px;
 }
 
-/* ---------- Responsive ---------- */
+
 @media screen and (max-width: 767px) {
     .header-container {
         padding: 8px 15px;
@@ -78,11 +77,11 @@
     }
 
     .header-options-larger-device {
-        display: none; /* hide large screen links */
+        display: none; 
     }
 
     .hamburger-btn {
-        display: block; /* show hamburger */
+        display: block; 
     }
 
     .header-options-mobile-device {
