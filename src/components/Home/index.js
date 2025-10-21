@@ -12,7 +12,7 @@ const Home = () => (
     <div className="content">
       <img
         className="mobile-profile-pic"
-        src="https://res.cloudinary.com/da4a06plx/image/upload/v1759851185/IMG_0888_n24abf.jpg"
+        src="https://res.cloudinary.com/da4a06plx/image/upload/v1761035633/02_cropedcopy_nrou0s.jpg"
         alt="Profile"
       />
       <div className="text-section">
@@ -72,7 +72,7 @@ const Home = () => (
 
       <div className="profile-pic">
         <img
-            src="https://res.cloudinary.com/da4a06plx/image/upload/v1759851185/IMG_0888_n24abf.jpg"
+            src="https://res.cloudinary.com/da4a06plx/image/upload/v1761035532/001_croped_tqw6fe.jpg"
             alt="Profile"
         />
     </div>

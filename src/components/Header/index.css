@@ -24,6 +24,9 @@
 }
 .link-style{
     text-decoration: none;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
 }
 
 .header-options-container {
