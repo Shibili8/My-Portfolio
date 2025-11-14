@@ -29,7 +29,7 @@ const Home = () => (
             className="download-btn"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1At-8hZV6MTbdeAtaIUsBRahxV0uCLVdd/view?usp=sharing",
+                "https://drive.google.com/file/d/1kCmSCP54YSALhRAsZq4aLzi3l6UxBOOy/view?usp=sharing",
                 "_blank"
               )
             }
@@ -197,12 +197,12 @@ users can login and can see list of products with search, filters, sort by, etc.
           </div>
         </div>
         <div className="project-card">
-          <h3>Jobby App</h3>
-          <p>Implemented Jobby App(Desktop Application) where users can log in and can see a list of jobs with search by Job title, filters based
-on Salary range and Employment type, etc</p>
+          <h3>UNI RESTO Cafe App</h3>
+          <p>A responsive React-based restaurant application designed to showcase menu items in different categories with a 
+clean and user-friendly layout.</p>
           <div className="app-link-container">
           <a
-            href="https://shibilijobbyapp.ccbp.tech"
+            href="https://shibili-uni-resto-cafe-app-1.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="app-link"
@@ -210,7 +210,7 @@ on Salary range and Employment type, etc</p>
             View App
           </a>
           <a
-            href="https://github.com/Shibili8/Jobby-App.git"
+            href="https://github.com/Shibili8/UNI-resto-cafe-app.git"
             target="_blank"
             rel="noreferrer"
             className="app-link"
