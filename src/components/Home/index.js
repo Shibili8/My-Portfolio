@@ -150,10 +150,12 @@ I’m proficient in creating and integrating RESTful APIs, implementing secure a
       <h2>Projects</h2>
       <div className="projects-container">
         <div className="project-card">
+          <div>
           <h3>Insta Share (Instagram Clone)</h3>
           <p>Implemented responsive Streaming Application like Instagram Clone where users can log in and see a list of
 stories and posts, user can also search posts with post caption, user can be able to like and dislike the post and
 also view the user specific posts.</p>
+            </div>
               <div className="app-link-container">
           <a
             href="https://shibiliinstaclo.ccbp.tech"
@@ -174,9 +176,11 @@ also view the user specific posts.</p>
           </div>
         </div>
         <div className="project-card">
+          <div>
           <h3>Nxt Trendz ( ECommerce App)</h3>
           <p>Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where
 users can login and can see list of products with search, filters, sort by, etc..</p>
+          </div>
           <div className="app-link-container">
           <a
             href="https://shibilinxttrdz.ccbp.tech"
@@ -197,9 +201,11 @@ users can login and can see list of products with search, filters, sort by, etc.
           </div>
         </div>
         <div className="project-card">
+          <div>
           <h3>UNI RESTO Cafe App</h3>
           <p>A responsive React-based restaurant application designed to showcase menu items in different categories with a 
 clean and user-friendly layout.</p>
+          </div>
           <div className="app-link-container">
           <a
             href="https://shibili-uni-resto-cafe-app-1.vercel.app/"

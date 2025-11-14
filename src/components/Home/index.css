@@ -286,6 +286,9 @@ section p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   text-align: left; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-card h3 {
