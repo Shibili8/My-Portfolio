@@ -4,6 +4,33 @@ import "./index.css";
 
 const projects = [
   {
+    title: "HRMS – Human Resource Management System",
+    description:
+      "A fully responsive Human Resource Management System where organisations can manage employees, teams, assignments, and activity logs with secure authentication and an intuitive dashboard.",
+    concepts: [
+      "Implemented multiple routes for features like Login, Dashboard, Employees, Teams, and Logs using React Router.",
+      "Built employee and team CRUD operations with validation, error handling, and mobile-responsive modals.",
+      "Designed team assignment flow with the ability to add, update, and remove assigned employees.",
+      "Integrated protected routes ensuring that only authenticated users can access internal pages.",
+      "Used Axios to consume backend REST APIs for authentication, employees, teams, and logs.",
+      "Implemented activity logging to track key user actions like employee creation, team updates, and assignments.",
+      "Developed robust backend APIs using Express and Sequelize ORM with JWT-based authentication."
+    ],
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "JavaScript",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "Sequelize ORM",
+      "JWT",
+      "Bcrypt",
+      "PostgreSQL"
+    ],
+    link: "https://hrms-mohammed-shibili-k.vercel.app/"
+  },
+  {
     title: "Insta Share (Instagram Clone)",
     description:
       "Implemented responsive Streaming Application like Instagram Clone where users can log in and see a list of stories and posts, user can also search posts with post caption, user can be able to like and dislike the post and also view the user specific posts.",

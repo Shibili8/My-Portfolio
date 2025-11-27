@@ -149,6 +149,32 @@ I’m proficient in creating and integrating RESTful APIs, implementing secure a
     <section className="projects-section">
       <h2>Projects</h2>
       <div className="projects-container">
+
+        <div className="project-card">
+          <div>
+          <h3>HRMS – Human Resource Management System</h3>
+          <p>A fully responsive Human Resource Management System where organisations can manage employees, teams, assignments, and activity logs with secure authentication and an intuitive dashboard.</p>
+          </div>
+          <div className="app-link-container">
+          <a
+            href="https://hrms-mohammed-shibili-k.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="app-link"
+          >
+            View App
+          </a>
+          <a
+            href="https://github.com/Shibili8/HRMS-Frontend.git"
+            target="_blank"
+            rel="noreferrer"
+            className="app-link"
+          >
+            View on GitHub
+          </a>
+          </div>
+        </div>
+
         <div className="project-card">
           <div>
           <h3>Insta Share (Instagram Clone)</h3>
@@ -200,32 +226,6 @@ users can login and can see list of products with search, filters, sort by, etc.
           </a>
           </div>
         </div>
-        <div className="project-card">
-          <div>
-          <h3>UNI RESTO Cafe App</h3>
-          <p>A responsive React-based restaurant application designed to showcase menu items in different categories with a 
-clean and user-friendly layout.</p>
-          </div>
-          <div className="app-link-container">
-          <a
-            href="https://shibili-uni-resto-cafe-app-1.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="app-link"
-          >
-            View App
-          </a>
-          <a
-            href="https://github.com/Shibili8/UNI-resto-cafe-app.git"
-            target="_blank"
-            rel="noreferrer"
-            className="app-link"
-          >
-            View on GitHub
-          </a>
-          </div>
-        </div>
-        
         
       </div>
       <Link to="/projects" className="more-item-link">
