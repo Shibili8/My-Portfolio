@@ -149,6 +149,31 @@ I’m proficient in creating and integrating RESTful APIs, implementing secure a
     <section className="projects-section">
       <h2>Projects</h2>
       <div className="projects-container">
+        
+        <div className="project-card">
+          <div>
+          <h3>Clothing E-Commerce Application</h3>
+          <p>Developed a fully responsive E-Commerce web application where users can browse products, apply filters, manage cart items, add to cart as guest or logged-in user, place orders, and reset passwords via email. Implemented secure authentication using JWT with HTTP-Only cookies and full cart synchronization.</p>
+          </div>
+          <div className="app-link-container">
+          <a
+            href="https://clothing-ecommerce-app-mohammed-shi.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="app-link"
+          >
+            View App
+          </a>
+          <a
+            href="https://github.com/Shibili8/Clothing-Ecommerce-Frontend.git"
+            target="_blank"
+            rel="noreferrer"
+            className="app-link"
+          >
+            View on GitHub
+          </a>
+          </div>
+        </div>
 
         <div className="project-card">
           <div>
@@ -193,31 +218,6 @@ also view the user specific posts.</p>
           </a>
           <a
             href="https://github.com/Shibili8/Insta-Share.git"
-            target="_blank"
-            rel="noreferrer"
-            className="app-link"
-          >
-            View on GitHub
-          </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <div>
-          <h3>Nxt Trendz ( ECommerce App)</h3>
-          <p>Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where
-users can login and can see list of products with search, filters, sort by, etc..</p>
-          </div>
-          <div className="app-link-container">
-          <a
-            href="https://shibilinxttrdz.ccbp.tech"
-            target="_blank"
-            rel="noreferrer"
-            className="app-link"
-          >
-            View App
-          </a>
-          <a
-            href="https://github.com/Shibili8/nxttrends-online-shopping-app.git"
             target="_blank"
             rel="noreferrer"
             className="app-link"

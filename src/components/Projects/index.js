@@ -4,6 +4,41 @@ import "./index.css";
 
 const projects = [
   {
+    title: "Clothing E-Commerce Application",
+    description:
+      "Developed a fully responsive E-Commerce web application where users can browse products, apply filters, manage cart items, add to cart as guest or logged-in user, place orders, and reset passwords via email. Implemented secure authentication using JWT with HTTP-Only cookies and full cart synchronization.",
+    
+    concepts: [
+      "Implemented protected routes and authentication flow using JWT tokens, HTTP-Only cookies, and React Router to ensure secure access to checkout and order success pages.",
+      "Developed complete product filtering — search, category, size, and price range — using optimized MongoDB query operations.",
+      "Integrated SendGrid email service to implement Forgot Password and Reset Password features with secure token-based verification.",
+      "Built a dual cart system: guest cart using localStorage and logged-in cart synced with MongoDB, ensuring real-time cart count updates.",
+      "Designed responsive UI using Tailwind CSS and reusable components for Home, Products, Cart, Checkout, and Order Success pages.",
+      "Implemented backend REST APIs for authentication, products, cart management, and order processing using Node.js, Express, and MongoDB.",
+      "Created a data seeding script to populate demo products into MongoDB for testing and development."
+    ],
+
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Tailwind CSS",
+      "React Router",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "SendGrid",
+      "JWT",
+      "Git",
+    ],
+
+    link: "https://clothing-ecommerce-app-mohammed-shi.vercel.app"
+  }
+,
+  {
     title: "HRMS – Human Resource Management System",
     description:
       "A fully responsive Human Resource Management System where organisations can manage employees, teams, assignments, and activity logs with secure authentication and an intuitive dashboard.",
