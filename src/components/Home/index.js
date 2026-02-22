@@ -29,12 +29,12 @@ const Home = () => (
             className="download-btn"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1_VcKVC5CWUMSg5OVFdi4vRHhFyXdEAdo/view?usp=sharing",
+                "https://drive.google.com/file/d/1M9eFV9Te3MO1g3ntAil-F-SaRdp_rG7y/view?usp=sharing",
                 "_blank"
               )
             }
           >
-            Download CV
+            Download Resume
           </button>
 
           <div className="icons">
