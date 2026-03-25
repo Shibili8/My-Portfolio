@@ -3,6 +3,12 @@ import "./index.css";
 
 const certificates = [
   {
+    id: 0,
+    title: "Technology Job Simulation",
+    issueDate: "Issued: Mar 2026",
+    link: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_69c0f9a4857f7b431dae5e13_1774329527510_completion_certificate.pdf",
+  },
+  {
     id: 1,
     title: "React JS",
     issueDate: "Issued: May 2025",
