@@ -240,6 +240,18 @@ also view the user specific posts.</p>
       <h2>Certificates</h2>
       <div className="certificates-container">
         <div className="certificate-card">
+          <h3>Technology Job Simulation by Deloitee</h3>
+          <p>Issued date - 24 MAR 2026 </p>
+          <a
+            href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_69c0f9a4857f7b431dae5e13_1774329527510_completion_certificate.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="app-link"
+          >
+            View Certificate
+          </a>
+        </div>
+        <div className="certificate-card">
           <h3>Industry Ready Certificate</h3>
           <p>Issued date - 08 JUN 2025 </p>
           <a
@@ -256,18 +268,6 @@ also view the user specific posts.</p>
           <p>Issued date - 09 MAY 2025  </p>
           <a
             href="https://certificates.ccbp.in/intensive/react-js?id=SSJLIXJDUN"
-            target="_blank"
-            rel="noreferrer"
-            className="app-link"
-          >
-            View Certificate
-          </a>
-        </div>
-        <div className="certificate-card">
-          <h3>Node JS</h3>
-          <p>Issued date - 07 MAR 2025  </p>
-          <a
-            href="https://certificates.ccbp.in/intensive/node-js?id=QIZMGSOMMS"
             target="_blank"
             rel="noreferrer"
             className="app-link"
