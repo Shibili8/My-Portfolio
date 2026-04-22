@@ -149,6 +149,31 @@ I’m proficient in creating and integrating RESTful APIs, implementing secure a
     <section className="projects-section">
       <h2>Projects</h2>
       <div className="projects-container">
+
+        <div className="project-card">
+          <div>
+          <h3>AI Resume Builder</h3>
+          <p>Developed a full-stack AI-powered Resume Builder application that allows users to create, edit, preview, and export professional resumes. Integrated AI-generated summaries, secure authentication, dynamic form handling, and PDF export functionality. Implemented dashboard-based resume management with edit and delete capabilities.</p>
+            </div>
+              <div className="app-link-container">
+          <a
+            href="https://ai-resume-builder-shibili-eight.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="app-link"
+          >
+            View App
+          </a>
+          <a
+            href="https://github.com/Shibili8/Ai-Resume-Builder-frontend.git"
+            target="_blank"
+            rel="noreferrer"
+            className="app-link"
+          >
+            View on GitHub
+          </a>
+          </div>
+        </div>
         
         <div className="project-card">
           <div>
@@ -191,33 +216,6 @@ I’m proficient in creating and integrating RESTful APIs, implementing secure a
           </a>
           <a
             href="https://github.com/Shibili8/HRMS-Frontend.git"
-            target="_blank"
-            rel="noreferrer"
-            className="app-link"
-          >
-            View on GitHub
-          </a>
-          </div>
-        </div>
-
-        <div className="project-card">
-          <div>
-          <h3>Insta Share (Instagram Clone)</h3>
-          <p>Implemented responsive Streaming Application like Instagram Clone where users can log in and see a list of
-stories and posts, user can also search posts with post caption, user can be able to like and dislike the post and
-also view the user specific posts.</p>
-            </div>
-              <div className="app-link-container">
-          <a
-            href="https://shibiliinstaclo.ccbp.tech"
-            target="_blank"
-            rel="noreferrer"
-            className="app-link"
-          >
-            View App
-          </a>
-          <a
-            href="https://github.com/Shibili8/Insta-Share.git"
             target="_blank"
             rel="noreferrer"
             className="app-link"

@@ -4,6 +4,58 @@ import "./index.css";
 
 const projects = [
   {
+    "title": "AI Resume Builder with Dashboard & PDF Export",
+
+    "description":
+      "Developed a full-stack AI-powered Resume Builder application that allows users to create, edit, preview, and export professional resumes. Integrated AI-generated summaries, secure authentication, dynamic form handling, and PDF export functionality. Implemented dashboard-based resume management with edit and delete capabilities.",
+
+    "concepts": [
+
+      "Implemented secure user authentication using JWT tokens and protected routes to restrict access to resume creation, preview, and dashboard features.",
+
+      "Developed a dynamic resume builder with multiple sections including Personal Details, Education, Skills, Experience, Projects, Certificates, and Additional Information.",
+
+      "Integrated AI-based resume summary generation using OpenRouter API with cooldown timer logic to prevent excessive API usage.",
+
+      "Built a real-time resume preview system that dynamically renders resume data before exporting to PDF.",
+
+      "Implemented PDF export functionality using Puppeteer, generating ATS-friendly resume layouts matching preview design.",
+
+      "Created a dashboard system where users can view, edit, delete, and manage multiple saved resumes stored in MongoDB.",
+
+      "Designed a responsive and modern user interface using Tailwind CSS with reusable components and structured layouts.",
+
+      "Developed RESTful APIs for resume creation, update, retrieval, and deletion using Node.js and Express.js.",
+
+      "Implemented MongoDB-based data persistence to store structured resume data securely for each authenticated user."
+
+    ],
+
+    "technologies": [
+
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Tailwind CSS",
+      "React Router",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "OpenRouter API",
+      "Puppeteer",
+      "Git"
+
+    ],
+
+    "link":
+      "https://ai-resume-builder-shibili-eight.vercel.app"
+
+  },
+  {
     title: "Clothing E-Commerce Application",
     description:
       "Developed a fully responsive E-Commerce web application where users can browse products, apply filters, manage cart items, add to cart as guest or logged-in user, place orders, and reset passwords via email. Implemented secure authentication using JWT with HTTP-Only cookies and full cart synchronization.",
